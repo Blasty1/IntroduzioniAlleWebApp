@@ -1,4 +1,5 @@
 # Esercizio su HTML
+Dati di progettazione complessivi.
 
 Vogliamo progettare la homepage di un'applicazione web.
 
