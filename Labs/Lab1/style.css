@@ -1,0 +1,83 @@
+header {
+    border: 3px solid black;
+    padding: 0.5rem;
+    margin: 1rem;
+    position: relative;
+}
+header ul
+{
+    list-style: none;
+    position: absolute;
+    top:0;
+    right: 0.5rem;
+
+}
+header li, h1{
+    display: inline;
+}
+
+main {
+    display: flex;
+}
+section {
+    border: 3px black solid;
+    margin: 1rem;
+    flex:1;
+
+}
+aside {
+    border: 3px black solid;
+    margin: 1rem;
+    flex:0.4;
+    height: fit-content;
+    padding-bottom: 5rem;
+}
+aside ul{
+    list-style: none;
+    text-decoration: underline;
+    padding: 0;
+    margin: 0.4rem 0 0 0.4rem;
+}
+aside ul li{
+    padding-bottom: 0.2rem;
+}
+
+#btn-plus{
+    position: fixed;
+    border: 3px black solid;
+    bottom: 2%;
+    right: 2%;
+    border-radius: 5rem;
+    font-size: 2rem;
+    width: 4rem;
+    height: 4rem;
+}
+
+article {
+    display: flex;
+    border-bottom: 1px solid black;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+article p{
+    text-align: justify;
+    padding-right: 0.5rem;
+}
+
+.right-article{
+    flex: 1;
+}
+.img-articolo{
+    height: 15vh;
+}
+.article-navbar h4{
+    display: inline;
+}
+.article-navbar{
+    position: relative;
+}
+.article-date{
+ position: absolute;
+ top: 0px;
+ right:0.5rem;
+ margin: 0;
+}
