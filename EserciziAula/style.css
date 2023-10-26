@@ -1,45 +1,40 @@
-#img-logo{
-    width: 20%;
-}
-#img-poli{
-    width: 100%;
-    height: 10em;
-    object-fit: cover;
+body {
+    font-family: sans-serif;
 }
 
 header {
-    text-align: center;
+    display: flex;
+    background-color: gainsboro;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+    flex-direction: column;
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
+#content-hdr {
+    display: flex;
 }
 
-footer {
-    background-color: darkslategray;
-    padding: 1em;
-    color: white;
-    font-size: small;
+#content-hdr * {
+    margin: 0 0.5rem;
 }
 
-footer li {
-    display: inline;
-    margin: 0rem 0.5rem;
+#img-logo{
+    width: 20%;
+}
+#nav-links{
+    background-color: cadetblue;
+    padding: 0.5em;
+    display: flex;
+    justify-content: space-around;
 }
 
-header nav, button{
-    display: inline;
-    margin: 0rem 0.5rem;
-}
-button {
-    background-color: blue;
-    height: 3em;
-    width: 5em;
-    color: antiquewhite;
-    border: 0px;
-    border-radius: 0.5rem;
+#img-poli {
+    width: 100%;
+    height: 7.5em;
+    object-fit: cover;
 }
 
-.btn-recensione{
-    background-color: green;
+main {
+    display: flex;
 }
